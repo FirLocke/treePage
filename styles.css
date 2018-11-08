@@ -1,0 +1,80 @@
+.floatLeft{float:left;
+            background-color:hsl(81, 96%, 22%) ;
+            color:white;
+            border-radius:0 30px 0 0;
+            width:25%;
+            box-shadow: 10px 5px 5px black;
+            padding:1%;
+            margin:0 1% 0 5%;
+          }
+
+          .floatMiddle{float:left;
+                      background-color: hsl(90, 96%, 26%);
+                      color:white;
+                      border-radius: 30px;
+                      width:25%;
+                      box-shadow: inset 5em 1em purple;
+                      padding:1%;
+                      margin:0 5% 0 0;
+                    }
+
+                    .floatRight{float:left;
+                                background-color: hsl(103, 96%, 31%);
+                                color:white;
+                                border-radius: 30px;
+                                width:12%;
+                                box-shadow: inset 5em 1em green;
+                                padding:1%;
+                                margin:0 1% 0 0;
+                    }
+
+
+                    #floatRightLevel2{float:left;
+                                      width:12%;
+                                      background-color: hsl(103, 96%, 31%);
+                                      color:white;
+                                      border-radius: 30px;
+                                      box-shadow: inset 1em 5em green;
+                                      padding:1%;
+                                      margin:0 1% 0 0;}
+                        .pLine{border:red solid 2px;
+                                padding:1em;
+                              }
+                        .pLine2{border:pink solid 2px;
+                                padding:1em;}
+
+body{background-color:hsl(145, 96%, 68%);
+
+}
+
+span{float:right;}
+
+nav{clear:right;
+    text-align: center;
+    color:white;
+    background-color: hsl(123, 96%, 27%);
+    padding:1em;
+    font-size: 26px;
+
+}
+
+a:link{color:orange;}
+a:visited{color:brown;}
+a:hover{background-color: grey;}
+a:active{background-color: blue;}
+
+h1{text-align: center;
+  font-size: 30px;
+  color:hsl(38, 96%, 32%);
+}
+
+h2{text-align: center;
+
+}
+
+footer{clear:both;
+        background-color: hsl(123, 96%, 27%);
+        padding:1em;
+        margin-top:30%;
+        font-size: 26px;
+}
